@@ -1,0 +1,92 @@
+//headings
+@mixin heading1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+@mixin heading2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+@mixin heading3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+@mixin heading4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+@mixin heading5 {
+    font-size: 32px;
+    font-weight: 600;
+}
+@mixin heading6 {
+    font-size: 28px;
+    font-weight: 600;
+}
+@mixin heading7 {
+    font-size: 26px;
+    font-weight: 600;
+}
+@mixin heading8 {
+    font-size: 24px;
+    font-weight: 600;
+}
+@mixin heading9 {
+    font-size: 20px;
+    font-weight: 600;
+}
+@mixin heading10 {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+//Body, Small
+@mixin body1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+@mixin body2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+@mixin bold-body1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+@mixin bold-body1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@mixin small1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+@mixin small2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+@mixin small3 {
+    font-size: 12px;
+    font-weight: 400;
+}
+@mixin small4 {
+    font-size: 10px;
+    font-weight: 400;
+}
+@mixin bold-small1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+@mixin bold-small2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+@mixin bold-small3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+@mixin bold-small4 {
+    font-size: 10px;
+    font-weight: 600;
+}

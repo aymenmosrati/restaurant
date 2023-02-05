@@ -1,0 +1,10 @@
+@use '../../assets/scss/utilities' as *;
+.input {
+  width: 50%;
+  height: 52px;
+  background: $background-bg3 ;
+  border: 1px solid #c2c7cf;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 10px;
+}
