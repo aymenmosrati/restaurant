@@ -1,8 +1,8 @@
 @use "../../../assets/scss/utilities" as *;
 .login {
-  display: flex;
   width: 100vw;
   height: 100vh;
+  display: flex;
   .login-design {
     width: 40%;
     background: #077777;
@@ -22,6 +22,7 @@
     .login-form-description {
       @include body2;
       color: $typography-text3;
+      width: 50%;
     }
     .login-form-email {
       display: flex;
@@ -30,6 +31,14 @@
     .login-form-password {
       display: flex;
       flex-direction: column;
+    }
+    .login-form-description-help {
+      width: 50%;
+      @include small1;
+      color: $typography-text3;
+      .login-form-description-help-email {
+        color: $Primary-green;
+      }
     }
   }
 }

@@ -1,0 +1,14 @@
+@use "../../assets/scss/utilities" as *;
+.button-login {
+  padding: 15px 41px;
+  width: 50%;
+  height: 52px;
+  background: $Primary-green;
+  border-radius: 15px;
+  border: none;
+  @include small1;
+  color: $typography-text2;
+  &:hover {
+    cursor: pointer;
+  }
+}

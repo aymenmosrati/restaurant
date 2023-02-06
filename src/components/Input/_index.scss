@@ -1,10 +1,29 @@
-@use '../../assets/scss/utilities' as *;
+@use "../../assets/scss/utilities" as *;
 .input {
   width: 50%;
   height: 52px;
-  background: $background-bg3 ;
-  border: 1px solid #c2c7cf;
+  background: $background-bg3;
+  border: 1px solid $background-bg1;
   border-radius: 8px;
   outline: none;
   padding-left: 10px;
+
+  &:hover {
+    border: 1px solid $typography-text1;
+  }
+  &:focus {
+    border: 2px solid $Primary-green;
+  }
+  &.success {
+    background: $transparent-soft-green;
+    border: 2px solid $system-success;
+  }
+  &.error {
+    background: $transparent-soft-pink;
+    border: 2px solid $system-danger;
+  }
+  &.warning {
+    background: $transparent-soft-yellow;
+    border: 2px solid $system-warning;
+  }
 }
