@@ -1,0 +1,14 @@
+@use "../../assets/scss/utilities" as *;
+
+.message {
+  @include small3;
+  &.success {
+    color: $system-success;
+  }
+  &.warning {
+    color: $system-warning;
+  }
+  &.error {
+    color: $system-danger;
+  }
+}
