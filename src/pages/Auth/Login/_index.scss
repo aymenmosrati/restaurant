@@ -5,6 +5,7 @@
   display: flex;
   .login-design {
     width: 40%;
+    height: 100vh;
     background: #077777;
     position: relative;
     .login-design-dot1 {
@@ -20,10 +21,10 @@
     .login-design-description {
       @include heading5;
       color: $typography-text2;
-      padding-top: 220px;
-      padding-left: 95px;
-      padding-bottom: 125px;
-      width: 80%;
+      padding-top: 25%;
+      padding-left: 18px;
+      padding-bottom: 126px;
+      text-align: center;
     }
   }
   .login-form {
@@ -84,13 +85,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .login-design-description {
-    padding-top: 220px;
-    padding-left: 18px;
-    padding-bottom: 125px;
-    width: 88%;
-    text-align: center;
-  }
+  // .login-form {
+  //   padding-top: 30px;
+  //   padding-bottom: 30px;
+  // }
 }
 
 @media screen and (max-width: 750px) {
@@ -110,7 +108,7 @@
 
 @media screen and (max-width: 450px) {
   .login-form {
-    padding: 0 5px;
+    padding: 70px 20px;
   }
   .login-form-password {
     padding-bottom: 10px !important;
