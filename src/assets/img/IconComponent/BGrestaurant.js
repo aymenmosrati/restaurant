@@ -13,70 +13,70 @@ const BGrestaurant = (props) => {
         <path
           d="M492.099 90.7324H496.877"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M492.099 93.3042H496.877"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M510.296 106.568C518.11 106.568 524.444 100.228 524.444 92.4075C524.444 84.5869 518.11 78.2471 510.296 78.2471C502.483 78.2471 496.149 84.5869 496.149 92.4075C496.149 100.228 502.483 106.568 510.296 106.568Z"
           fill="#F1B104"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M516.169 94.7131L510.779 82.1196L505.158 94.5045C505.158 94.5045 509.881 97.6309 516.169 94.7131Z"
           stroke="white"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M514.565 95.1686L509.965 84.1089"
           stroke="white"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M513.084 95.6241L509.085 86.0107"
           stroke="white"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M511.356 95.8519L508.126 88.0859"
           stroke="white"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M509.628 95.852L507.216 90.0532"
           stroke="white"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M507.777 95.5105L506.316 91.9995"
           stroke="white"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M502.588 98.6885H518.005"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M508.943 100.675H506.238V102.625H508.943V100.675Z"
@@ -97,16 +97,16 @@ const BGrestaurant = (props) => {
         <path
           d="M360.446 199.877V195.366H418.416V199.877"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M364.803 195.366V191.325H414.059V195.366"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M408.972 191.06H369.89C369.259 191.06 368.747 190.547 368.747 189.915V104C368.747 103.368 369.259 102.856 369.89 102.856H408.972C409.603 102.856 410.115 103.368 410.115 104V189.915C410.115 190.547 409.603 191.06 408.972 191.06Z"
@@ -119,9 +119,9 @@ const BGrestaurant = (props) => {
         <path
           d="M392.929 119.484L389.431 113.2L386 119.484"
           stroke="white"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M398.812 125.243H380.032C379.441 125.243 378.961 124.763 378.961 124.171V120.557C378.961 119.964 379.441 119.484 380.032 119.484H398.812C399.403 119.484 399.883 119.964 399.883 120.557V124.171C399.883 124.763 399.403 125.243 398.812 125.243Z"
@@ -130,26 +130,26 @@ const BGrestaurant = (props) => {
         <path
           d="M402.518 142.666C403.57 142.666 404.422 141.813 404.422 140.76C404.422 139.708 403.57 138.855 402.518 138.855C401.467 138.855 400.615 139.708 400.615 140.76C400.615 141.813 401.467 142.666 402.518 142.666Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M377.355 143.093L401.142 119.284"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M388.608 137.211L398.108 127.702"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M383.674 142.01L385.657 140.026"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M487.736 165.146H430.58C429.441 165.146 428.518 164.222 428.518 163.082V104.921C428.518 103.781 429.441 102.856 430.58 102.856H487.736C488.875 102.856 489.799 103.781 489.799 104.921V163.082C489.799 164.222 488.875 165.146 487.736 165.146Z"
@@ -158,26 +158,26 @@ const BGrestaurant = (props) => {
         <path
           d="M448.79 151.984L477.158 123.589"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M476.422 130.743L477.965 129.199"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M462.21 144.968L474.663 132.504"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M439.952 133.836L451.281 122.496"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M428.526 102.856V109.683H422.179L428.526 102.856Z"
@@ -314,9 +314,9 @@ const BGrestaurant = (props) => {
         <path
           d="M489.284 193.403L487.938 199.754"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M505.015 193.527H534.895L524.773 145.754H498.563L505.015 193.527Z"
@@ -325,120 +325,120 @@ const BGrestaurant = (props) => {
         <path
           d="M536 199.877L534.655 193.526H505.019L505.875 199.877"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M526.708 169.273C527.821 175.591 523.926 180.711 518.007 180.711C512.089 180.711 506.39 175.591 505.277 169.273C504.164 162.957 508.06 157.837 513.977 157.837L515.992 169.273L523.634 162.736C525.172 164.589 526.279 166.842 526.708 169.273Z"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M524.331 158.964L517.346 164.941L515.504 154.486C518.832 154.486 522.085 156.258 524.331 158.964Z"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M511.219 169.747C511.863 169.215 511.865 168.152 511.223 167.374C510.58 166.595 509.536 166.396 508.891 166.928C508.246 167.461 508.245 168.523 508.887 169.302C509.53 170.08 510.574 170.28 511.219 169.747Z"
           stroke="white"
-          stroke-width="0.612316"
-          stroke-linecap="round"
+          strokeWidth="0.612316"
+          strokeLinecap="round"
         />
         <path
           d="M523 175.455C523.514 174.894 523.388 173.942 522.719 173.329C522.049 172.716 521.09 172.674 520.576 173.236C520.062 173.797 520.188 174.749 520.857 175.362C521.527 175.974 522.486 176.016 523 175.455Z"
           stroke="white"
-          stroke-width="0.612294"
-          stroke-linecap="round"
+          strokeWidth="0.612294"
+          strokeLinecap="round"
         />
         <path
           d="M509.744 164.038L511.747 165.203"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M519.172 170.46H521.771"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M514.403 171.378L516.458 172.85"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M510.06 173.403L512.118 173.245"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M518.27 177.527C518.642 177.12 518.615 176.487 518.207 176.114C517.8 175.741 517.167 175.769 516.794 176.177C516.421 176.584 516.449 177.216 516.857 177.589C517.264 177.962 517.897 177.935 518.27 177.527Z"
           stroke="white"
-          stroke-width="0.612294"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612294"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M512.867 162.014C513.24 161.607 513.212 160.974 512.804 160.601C512.397 160.228 511.765 160.256 511.392 160.663C511.019 161.071 511.047 161.703 511.454 162.076C511.861 162.449 512.494 162.421 512.867 162.014Z"
           stroke="white"
-          stroke-width="0.612294"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612294"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M520.986 159.411C521.359 159.004 521.331 158.372 520.924 157.999C520.516 157.626 519.884 157.653 519.511 158.061C519.138 158.468 519.166 159.101 519.573 159.474C519.98 159.847 520.613 159.819 520.986 159.411Z"
           stroke="white"
-          stroke-width="0.612294"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612294"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M524.674 169.434C525.047 169.027 525.019 168.394 524.612 168.021C524.205 167.648 523.572 167.676 523.199 168.083C522.826 168.491 522.854 169.123 523.261 169.496C523.669 169.869 524.301 169.841 524.674 169.434Z"
           stroke="white"
-          stroke-width="0.612294"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612294"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M517.923 159.208L518.668 160.859"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M513.438 175.585L514.493 177.59"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M522.231 166.159H524.089"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M460.594 69.2017V45.1499"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M491.752 45.1499H430.189L460.971 30.1128L491.752 45.1499Z"
@@ -467,9 +467,9 @@ const BGrestaurant = (props) => {
         <path
           d="M393.787 69.2017V45.1499"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M424.945 45.1499H363.382L394.164 30.1128L424.945 45.1499Z"
@@ -546,92 +546,92 @@ const BGrestaurant = (props) => {
         <path
           d="M358.187 69.2017H491.854V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M367.114 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M376.041 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M384.969 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M393.896 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M402.824 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M411.751 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M420.679 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M429.606 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M438.534 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M447.461 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M456.389 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M465.316 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M474.244 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M483.171 69.2017V90.4933"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M358.187 26.1987H210.935V199.876H358.187V26.1987Z"
@@ -648,8 +648,8 @@ const BGrestaurant = (props) => {
         <path
           d="M225.327 88.0649V99.4841"
           stroke="white"
-          stroke-width="0.734776"
-          stroke-linecap="round"
+          strokeWidth="0.734776"
+          strokeLinecap="round"
         />
         <path
           d="M235.5 106.451C235.5 108.317 234.743 110.008 233.52 111.231C232.299 112.455 230.61 113.212 228.745 113.212H221.908C218.177 113.212 215.153 110.185 215.153 106.451C215.153 104.584 215.909 102.894 217.132 101.67C218.355 100.447 220.044 99.6899 221.909 99.6899H228.745C232.475 99.6899 235.5 102.717 235.5 106.451Z"
@@ -664,24 +664,24 @@ const BGrestaurant = (props) => {
           fill="#FF6E00"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M235.5 106.451C235.5 108.317 234.743 110.008 233.521 111.232C232.299 112.455 230.61 113.213 228.745 113.213H225.794C225.637 113.213 225.483 113.207 225.329 113.196C227.007 113.082 228.517 112.352 229.635 111.231C230.858 110.008 231.615 108.317 231.615 106.451C231.615 102.874 228.84 99.9472 225.329 99.7059C225.483 99.6956 225.637 99.6899 225.794 99.6899H228.745C232.475 99.6899 235.5 102.718 235.5 106.451Z"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M224.86 113.212H221.908C218.177 113.212 215.153 110.185 215.153 106.451C215.153 104.584 215.909 102.894 217.132 101.67C218.355 100.447 220.044 99.6899 221.909 99.6899H225.105"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M225.327 99.7061V113.197"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M229.061 113.212H221.908V114.68H229.061V113.212Z"
@@ -690,14 +690,14 @@ const BGrestaurant = (props) => {
         <path
           d="M225.328 99.7061C223.649 99.8204 222.137 100.55 221.017 101.67C219.795 102.894 219.038 104.584 219.038 106.451C219.038 110.028 221.814 112.956 225.328 113.197"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M340.923 88.0649V99.4841"
           stroke="white"
-          stroke-width="0.734776"
-          stroke-linecap="round"
+          strokeWidth="0.734776"
+          strokeLinecap="round"
         />
         <path
           d="M351.095 106.451C351.095 108.317 350.339 110.008 349.116 111.231C347.895 112.455 346.206 113.212 344.341 113.212H337.504C333.773 113.212 330.749 110.185 330.749 106.451C330.749 104.584 331.505 102.894 332.728 101.67C333.95 100.447 335.639 99.6899 337.504 99.6899H344.341C348.071 99.6899 351.095 102.717 351.095 106.451Z"
@@ -712,24 +712,24 @@ const BGrestaurant = (props) => {
           fill="#FF6E00"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M351.095 106.451C351.095 108.317 350.339 110.008 349.116 111.232C347.895 112.455 346.206 113.213 344.341 113.213H341.389C341.233 113.213 341.078 113.207 340.924 113.196C342.603 113.082 344.112 112.352 345.231 111.231C346.454 110.008 347.21 108.317 347.21 106.451C347.21 102.874 344.436 99.9472 340.924 99.7059C341.079 99.6956 341.233 99.6899 341.389 99.6899H344.341C348.071 99.6899 351.095 102.718 351.095 106.451Z"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M340.456 113.212H337.504C333.773 113.212 330.749 110.185 330.749 106.451C330.749 104.584 331.505 102.894 332.728 101.67C333.95 100.447 335.639 99.6899 337.504 99.6899H340.7"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M340.923 99.7061V113.197"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M344.657 113.212H337.504V114.68H344.657V113.212Z"
@@ -738,8 +738,8 @@ const BGrestaurant = (props) => {
         <path
           d="M340.923 99.7061C339.245 99.8204 337.733 100.55 336.613 101.67C335.39 102.894 334.634 104.584 334.634 106.451C334.634 110.028 337.409 112.956 340.923 113.197"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M236.458 120.236H219.467V176.093H236.458V120.236Z"
@@ -748,32 +748,32 @@ const BGrestaurant = (props) => {
         <path
           d="M227.963 120.236V176.093"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M236.458 166.783H219.467"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M236.458 157.474H219.467"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M236.458 148.165H219.467"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M236.458 138.855H219.467"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M236.458 129.546H219.467"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M346.595 120.236H329.604V176.093H346.595V120.236Z"
@@ -782,32 +782,32 @@ const BGrestaurant = (props) => {
         <path
           d="M338.099 120.236V176.093"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M346.595 166.783H329.604"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M346.595 157.474H329.604"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M346.595 148.165H329.604"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M346.595 138.855H329.604"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M346.595 129.546H329.604"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M350.858 37.6289H287.267V63.7602H350.858V37.6289Z"
@@ -816,122 +816,122 @@ const BGrestaurant = (props) => {
         <path
           d="M295.216 37.6289V46.3393H287.267"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M287.267 46.3394H295.216V55.0499H287.267"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M287.267 55.0498H295.216V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M303.165 37.6289V46.3393H295.216V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M303.165 46.3394H295.216V55.0498H303.165V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M295.216 63.7602V55.0498H303.165V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M311.114 37.6289V46.3393H303.165V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M311.114 46.3394H303.165V55.0498H311.114V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M303.165 63.7602V55.0498H311.114V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M319.063 37.6289V46.3393H311.114V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M319.063 46.3394H311.114V55.0498H319.063V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M311.114 63.7602V55.0498H319.063V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M327.012 37.6289V46.3393H319.063V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M327.012 46.3394H319.063V55.0498H327.012V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M319.063 63.7602V55.0498H327.012V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M334.961 37.6289V46.3393H327.012V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M334.961 46.3394H327.012V55.0498H334.961V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M327.012 63.7602V55.0498H334.961V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M342.909 37.6289V46.3393H334.96V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M342.909 46.3394H334.96V55.0498H342.909V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M334.96 63.7602V55.0498H342.909V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M350.859 46.3393H342.91V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M350.859 55.0499H342.91V46.3394H350.859"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M342.91 63.7602V55.0498H350.859"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M282.113 37.6289H218.521V63.7602H282.113V37.6289Z"
@@ -940,122 +940,122 @@ const BGrestaurant = (props) => {
         <path
           d="M226.47 37.6289V46.3393H218.521"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M218.521 46.3394H226.47V55.0499H218.521"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M218.521 55.0498H226.47V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M234.419 37.6289V46.3393H226.47V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M234.419 46.3394H226.47V55.0498H234.419V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M226.47 63.7602V55.0498H234.419V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M242.368 37.6289V46.3393H234.419V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M242.368 46.3394H234.419V55.0498H242.368V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M234.419 63.7602V55.0498H242.368V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M250.317 37.6289V46.3393H242.368V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M250.317 46.3394H242.368V55.0498H250.317V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M242.368 63.7602V55.0498H250.317V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M258.266 37.6289V46.3393H250.317V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M258.266 46.3394H250.317V55.0498H258.266V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M250.317 63.7602V55.0498H258.266V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M266.215 37.6289V46.3393H258.266V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M266.215 46.3394H258.266V55.0498H266.215V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M258.266 63.7602V55.0498H266.215V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M274.164 37.6289V46.3393H266.215V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M274.164 46.3394H266.215V55.0498H274.164V46.3394Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M266.215 63.7602V55.0498H274.164V63.7602"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M282.113 46.3393H274.164V37.6289"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M282.113 55.0499H274.164V46.3394H282.113"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M274.164 63.7602V55.0498H282.113"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M204.523 64.718H179.137C178.716 64.718 178.374 64.376 178.374 63.9542V38.5455C178.374 38.1237 178.716 37.7817 179.137 37.7817H204.523C204.944 37.7817 205.286 38.1238 205.286 38.5455V63.9542C205.286 64.3761 204.944 64.718 204.523 64.718Z"
@@ -1068,28 +1068,28 @@ const BGrestaurant = (props) => {
         <path
           d="M210.965 64.5059H203.587"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M203.587 37.9941H210.965"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M189.545 50.4051L187.12 42.3071"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M184.17 42.5547L188.443 49.98"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M190.95 58.8622H185.241L182.057 49.98H194.134L190.95 58.8622Z"
@@ -1102,8 +1102,8 @@ const BGrestaurant = (props) => {
         <path
           d="M181.845 49.98H198.167"
           stroke="#A9D8D5"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M303.196 195.366H262.865C262.03 195.366 261.353 194.688 261.353 193.852V107.1C261.353 106.264 262.03 105.586 262.865 105.586H303.196C304.031 105.586 304.709 106.264 304.709 107.1V193.852C304.709 194.688 304.031 195.366 303.196 195.366Z"
@@ -1112,45 +1112,45 @@ const BGrestaurant = (props) => {
         <path
           d="M276.073 115.337H268.171V124.591H276.073V115.337Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M286.942 115.337H279.04V124.591H286.942V115.337Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M297.811 115.337H289.909V124.591H297.811V115.337Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M276.073 127.857H268.171V137.111H276.073V127.857Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M286.942 127.857H279.04V137.111H286.942V127.857Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M297.811 127.857H289.909V137.111H297.811V127.857Z"
           stroke="#F1B104"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M298.13 149.246C299.34 149.246 300.322 148.263 300.322 147.052C300.322 145.84 299.34 144.857 298.13 144.857C296.919 144.857 295.938 145.84 295.938 147.052C295.938 148.263 296.919 149.246 298.13 149.246Z"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M253.299 200V195.49H312.762V200"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M333.868 88.6886H232.194C245.582 88.6886 255.216 81.6556 260.919 71.2622H305.143C310.846 81.6557 320.48 88.6886 333.868 88.6886Z"
@@ -1163,8 +1163,8 @@ const BGrestaurant = (props) => {
         <path
           d="M340.696 88.0654C338.486 88.4745 336.203 88.6888 333.868 88.6888H232.194C229.859 88.6888 227.574 88.4745 225.365 88.0654"
           stroke="white"
-          stroke-width="0.734776"
-          stroke-linecap="round"
+          strokeWidth="0.734776"
+          strokeLinecap="round"
         />
         <path
           d="M368.587 17.3297H197.266C210.226 14.9907 221.168 8.60668 227.73 0H338.122C344.685 8.60668 355.626 14.9905 368.587 17.3297Z"
@@ -1177,8 +1177,8 @@ const BGrestaurant = (props) => {
         <path
           d="M260.918 71.2622H305.143"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M210.934 92.3618H76.7256V199.876H210.934V92.3618Z"
@@ -1187,9 +1187,9 @@ const BGrestaurant = (props) => {
         <path
           d="M210.934 96.6665H76.7256"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M210.934 88.7002H76.7256V92.3572H210.934V88.7002Z"
@@ -1210,38 +1210,38 @@ const BGrestaurant = (props) => {
         <path
           d="M72.3509 160.216L48.8569 199.876"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M72.5741 199.876L61.6264 178.319H44.415"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M3.75586 160.216L27.2498 199.876"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M3.53223 199.876L14.4799 178.319H31.6913"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M21.8154 168.054H56.2814"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M39.0483 199.876V168.054"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M39.0503 161.687C40.4364 161.687 41.5601 160.852 41.5601 159.823C41.5601 158.793 40.4364 157.958 39.0503 157.958C37.6642 157.958 36.5405 158.793 36.5405 159.823C36.5405 160.852 37.6642 161.687 39.0503 161.687Z"
@@ -1258,9 +1258,9 @@ const BGrestaurant = (props) => {
         <path
           d="M41.8155 155.978L39.0503 161.396V151.741"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M39.0987 152.891C40.0658 152.891 40.8498 151.622 40.8498 150.056C40.8498 148.49 40.0658 147.221 39.0987 147.221C38.1316 147.221 37.3477 148.49 37.3477 150.056C37.3477 151.622 38.1316 152.891 39.0987 152.891Z"
@@ -1289,9 +1289,9 @@ const BGrestaurant = (props) => {
         <path
           d="M69.0918 139.131C69.0918 141.241 70.8007 142.952 72.9088 142.952C75.0167 142.952 76.7257 141.241 76.7257 139.131"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M73.1823 130.985H64.7554L66.6336 139.047H71.3041L73.1823 130.985Z"
@@ -1300,25 +1300,25 @@ const BGrestaurant = (props) => {
         <path
           d="M63.5942 130.985H74.3438"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M70.4411 128.188H67.4968C66.9944 128.188 66.5228 128.431 66.2309 128.841L64.7007 130.985H73.2373L71.7071 128.841C71.415 128.431 70.9435 128.188 70.4411 128.188Z"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M66.0869 139.047H71.8512"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M76.726 92.3618V120.236C76.726 122.928 73.2904 125.112 69.0534 125.112C64.8152 125.112 61.3808 122.928 61.3808 120.236C61.3808 122.928 57.9452 125.112 53.7082 125.112C49.4712 125.112 46.0356 122.928 46.0356 120.236C46.0356 122.928 42.6 125.112 38.363 125.112C34.126 125.112 30.6904 122.928 30.6904 120.236C30.6904 122.928 27.2548 125.112 23.0178 125.112C18.7808 125.112 15.3452 122.928 15.3452 120.236C15.3452 122.928 11.9108 125.112 7.6726 125.112C3.4356 125.112 0 122.928 0 120.236L76.726 92.3618Z"
@@ -1327,7 +1327,7 @@ const BGrestaurant = (props) => {
         <path
           d="M76.7259 120.236H0.000488281"
           stroke="white"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M138.402 102.856H87.5767V195.223H138.402V102.856Z"
@@ -1400,14 +1400,14 @@ const BGrestaurant = (props) => {
         <path
           d="M112.989 102.856V195.366"
           stroke="#A9D8D5"
-          stroke-width="0.612313"
+          strokeWidth="0.612313"
         />
         <path
           d="M83.7896 199.876V195.366H141.76V199.876"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M108.13 143.617C109.278 143.617 110.21 142.685 110.21 141.535C110.21 140.385 109.278 139.453 108.13 139.453C106.981 139.453 106.05 140.385 106.05 141.535C106.05 142.685 106.981 143.617 108.13 143.617Z"
@@ -1424,26 +1424,26 @@ const BGrestaurant = (props) => {
         <path
           d="M202.529 120.236H148.814V167.695H202.529V120.236Z"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M161.454 152.707L187.196 126.94"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M175.658 143.96L187.196 132.412"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M168.964 150.661L172.716 146.906"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M202.88 167.695V170.5C202.88 173.589 200.273 176.092 197.057 176.092H154.379C151.163 176.092 148.556 173.588 148.556 170.5V167.695H202.88Z"
@@ -1465,15 +1465,11 @@ const BGrestaurant = (props) => {
           d="M191.418 167.527C191.418 167.527 190.975 161.278 197.768 158.675C197.768 158.675 197.477 163.839 192.763 167.527H191.418Z"
           fill="#96CFCE"
         />
-        <path
-          d="M188.707 158.181V167.836"
-          stroke="#96CFCE"
-          stroke-width="0.5"
-        />
+        <path d="M188.707 158.181V167.836" stroke="#96CFCE" strokeWidth="0.5" />
         <path
           d="M190.887 164.062C190.887 164.062 189.838 164.553 189.889 167.849"
           stroke="#96CFCE"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M194.261 163.029C194.227 163.092 194.191 163.153 194.151 163.21C194.301 162.904 194.338 162.606 194.233 162.366C193.993 161.819 193.093 161.755 192.157 162.19C191.987 161.171 191.427 160.464 190.84 160.575C190.59 160.621 190.371 160.811 190.205 161.094C190.227 161.038 190.253 160.982 190.282 160.927C190.681 160.171 191.52 159.829 192.156 160.165C192.486 160.339 192.697 160.662 192.767 161.038C193.116 160.884 193.501 160.875 193.832 161.05C194.468 161.386 194.66 162.272 194.261 163.029Z"
@@ -1490,8 +1486,8 @@ const BGrestaurant = (props) => {
         <path
           d="M170.002 161.069C170.002 161.069 173.644 162.275 174.271 167.587"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
         />
         <path
           d="M171.534 158.181C171.296 157.504 170.877 157.058 170.427 157.086C169.781 157.126 169.317 158.126 169.391 159.319C169.397 159.407 169.405 159.494 169.416 159.579C169.325 159.587 169.232 159.599 169.138 159.614C167.959 159.804 167.086 160.477 167.19 161.116C167.256 161.531 167.718 161.83 168.356 161.937C167.521 161.962 166.798 161.525 166.644 160.844C166.539 160.382 166.719 159.907 167.085 159.545C166.686 158.912 166.663 158.163 167.087 157.683C167.479 157.239 168.144 157.146 168.777 157.385C169.014 156.882 169.439 156.536 169.943 156.505C170.733 156.456 171.428 157.197 171.534 158.181Z"
@@ -1504,32 +1500,32 @@ const BGrestaurant = (props) => {
         <path
           d="M198.878 162.98C199.431 162.98 199.878 162.533 199.878 161.98C199.878 161.428 199.431 160.98 198.878 160.98C198.326 160.98 197.878 161.428 197.878 161.98C197.878 162.533 198.326 162.98 198.878 162.98Z"
           stroke="#F1B104"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M173.622 161.036C174.174 161.036 174.622 160.588 174.622 160.036C174.622 159.483 174.174 159.036 173.622 159.036C173.07 159.036 172.622 159.483 172.622 160.036C172.622 160.588 173.07 161.036 173.622 161.036Z"
           stroke="#F1B104"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M165.465 163.685C166.017 163.685 166.465 163.237 166.465 162.685C166.465 162.132 166.017 161.685 165.465 161.685C164.913 161.685 164.465 162.132 164.465 162.685C164.465 163.237 164.913 163.685 165.465 163.685Z"
           stroke="#F1B104"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M152.64 166.617C153.192 166.617 153.64 166.169 153.64 165.617C153.64 165.064 153.192 164.617 152.64 164.617C152.087 164.617 151.64 165.064 151.64 165.617C151.64 166.169 152.087 166.617 152.64 166.617Z"
           stroke="#F1B104"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M186.23 152.469C186.782 152.469 187.23 152.021 187.23 151.469C187.23 150.916 186.782 150.469 186.23 150.469C185.678 150.469 185.23 150.916 185.23 151.469C185.23 152.021 185.678 152.469 186.23 152.469Z"
           stroke="#F1B104"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M178.496 162.148C178.496 162.148 178.972 165.149 182.919 167.695"
           stroke="#96CFCE"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M178.089 164.473C179.508 164.473 180.658 163.322 180.658 161.901C180.658 160.481 179.508 159.33 178.089 159.33C176.67 159.33 175.52 160.481 175.52 161.901C175.52 163.322 176.67 164.473 178.089 164.473Z"
@@ -1543,11 +1539,7 @@ const BGrestaurant = (props) => {
           d="M163.248 167.526C163.248 167.526 165.908 164.23 170.282 163.952C170.282 163.952 169.495 166.321 167.483 167.526H163.248Z"
           fill="#96CFCE"
         />
-        <path
-          d="M163.135 158.181V167.836"
-          stroke="#96CFCE"
-          stroke-width="0.5"
-        />
+        <path d="M163.135 158.181V167.836" stroke="#96CFCE" strokeWidth="0.5" />
         <path
           d="M163.182 160.045C164.601 160.045 165.752 158.894 165.752 157.474C165.752 156.053 164.601 154.902 163.182 154.902C161.763 154.902 160.613 156.053 160.613 157.474C160.613 158.894 161.763 160.045 163.182 160.045Z"
           fill="#F1B104"
@@ -1555,7 +1547,7 @@ const BGrestaurant = (props) => {
         <path
           d="M154.882 164.23C154.882 164.23 155.683 167.248 160.162 167.695"
           stroke="#96CFCE"
-          stroke-width="0.5"
+          strokeWidth="0.5"
         />
         <path
           d="M156.81 161.114C156.816 161.185 156.819 161.256 156.816 161.326C156.775 160.987 156.644 160.717 156.425 160.574C155.925 160.246 155.137 160.684 154.59 161.56C153.892 160.799 153.037 160.512 152.605 160.926C152.421 161.102 152.341 161.38 152.356 161.708C152.344 161.649 152.335 161.588 152.33 161.526C152.251 160.674 152.768 159.929 153.484 159.864C153.856 159.829 154.208 159.985 154.472 160.262C154.681 159.941 154.999 159.724 155.371 159.69C156.087 159.624 156.731 160.261 156.81 161.114Z"
@@ -1568,8 +1560,8 @@ const BGrestaurant = (props) => {
         <path
           d="M148.814 167.695H202.529"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M191.62 156.505C191.719 155.82 191.471 155.235 190.897 154.997C190.272 154.737 189.427 155.512 188.715 156.051H188.714C188.014 155.499 187.174 154.709 186.544 154.957C185.948 155.191 185.689 155.798 185.796 156.511C185.461 155.619 185.68 154.677 186.366 154.28C186.709 154.081 187.113 154.053 187.505 154.166C187.774 153.644 188.212 153.305 188.706 153.305C189.201 153.305 189.64 153.644 189.908 154.166C190.301 154.053 190.704 154.081 191.047 154.28C191.731 154.675 191.952 155.615 191.62 156.505Z"
@@ -1582,65 +1574,65 @@ const BGrestaurant = (props) => {
         <path
           d="M144.92 120.236H206.301"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M150.122 102.856H201.098"
           stroke="white"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M91.4634 92.3622V85.0483H133.723V92.3622"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinejoin="round"
         />
         <path
           d="M138.188 72.9873V83.451C138.188 84.3334 137.485 85.0487 136.618 85.0487H88.5684C87.7017 85.0487 86.999 84.3334 86.999 83.451V72.9873C90.0802 67.602 100.371 62.0122 112.593 62.0122C124.814 62.0122 135.106 67.6019 138.188 72.9873Z"
           fill="#F6ACC1"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M138.188 72.9873V83.451C138.188 84.3334 137.485 85.0487 136.618 85.0487H88.5684C87.7017 85.0487 86.999 84.3334 86.999 83.451V72.9873C90.0802 67.602 100.371 62.0122 112.593 62.0122C124.814 62.0122 135.107 67.6019 138.188 72.9873Z"
           stroke="#573240"
-          stroke-width="0.5"
-          stroke-linecap="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
         />
         <path
           d="M104.139 71.9326H103.313C100.894 71.9326 98.9331 73.8954 98.9331 76.3167C98.9331 76.8305 99.3492 77.247 99.8626 77.247H119.372"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M110.251 69.3926H109.026C105.817 69.3926 103.216 71.9965 103.216 75.2086V75.252C103.216 76.3541 104.108 77.2475 105.209 77.2475"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M120.608 70.9932C119.914 68.9117 117.951 67.4111 115.639 67.4111H114.425C111.532 67.4111 109.188 69.758 109.188 72.653V75.1266C109.188 76.2979 110.136 77.2473 111.306 77.2473"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M116.182 75.9778V74.7531C116.182 72.6765 117.863 70.9932 119.938 70.9932H120.294C122.13 70.9932 123.851 71.8871 124.908 73.3896L125.981 74.9152C126.671 75.8956 125.971 77.2472 124.773 77.2472H117.45C116.749 77.2472 116.182 76.6789 116.182 75.9778Z"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
         />
         <path
           d="M103.417 80.2881H121.77"
           stroke="#573240"
-          stroke-width="0.612313"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.612313"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </>
