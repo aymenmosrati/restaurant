@@ -1,7 +1,6 @@
 @use "../../assets/scss/utilities" as *;
 .input {
   @include small1;
-  width: 390px;
   height: 52px;
   background: $background-bg3;
   color: $typography-text1;

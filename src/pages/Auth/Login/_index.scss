@@ -18,25 +18,16 @@
       left: 0;
     }
     .login-design-description {
-      // @include heading5;
-      // color: $typography-text2;
-      // padding-top: 220px;
-      // padding-left: 95px;
-      // padding-bottom: 125px;
-      // width: 70%;
-
-      font-size: 32px;
-      font-weight: 600;
-      color: #ffffff;
+      @include heading5;
+      color: $typography-text2;
       padding-top: 220px;
-      padding-left: 18px;
+      padding-left: 95px;
       padding-bottom: 125px;
-      width: 88%;
-      text-align: center;
+      width: 80%;
     }
   }
   .login-form {
-    width: 390px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +40,6 @@
     .login-form-description {
       @include body2;
       color: $typography-text3;
-      width: 90%;
       padding-bottom: 25px;
     }
     .login-form-email {
@@ -65,7 +55,6 @@
       padding-bottom: 25px;
     }
     .remember-forget-pass {
-      width: 390px;
       display: flex;
       justify-content: space-between;
       padding-bottom: 25px;
@@ -84,7 +73,6 @@
       padding-bottom: 25px;
     }
     .login-form-description-help {
-      width: 70%;
       @include small1;
       color: $typography-text3;
       padding-top: 62px;
@@ -96,15 +84,42 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .login-form {
-    // padding-left: 4% !important;
+  .login-design-description {
+    padding-top: 220px;
+    padding-left: 18px;
+    padding-bottom: 125px;
+    width: 88%;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .login {
-    .login-design {
-      display: none;
+  .login-design {
+    display: none;
+  }
+  .login-form-title {
+    text-align: center;
+  }
+  .login-form-description {
+    text-align: center;
+  }
+  .login-form-description-help {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-form {
+    padding: 0 5px;
+  }
+  .login-form-password {
+    padding-bottom: 10px !important;
+  }
+  .remember-forget-pass {
+    flex-direction: column-reverse;
+    .forget-password {
+      display: flex;
+      justify-content: flex-end;
     }
   }
 }
