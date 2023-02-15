@@ -1,8 +1,20 @@
 import React from "react";
-import './_index.scss';
+import { useDispatch } from "react-redux";
+import { showPassword } from "../../store/authSlice";
+import "./_index.scss";
 
 const Input = (props) => {
-    const { ...rest } = props;
-    return <input {...rest} />
-}
+  const { ...rest } = props;
+  const dispatch = useDispatch();
+  return (
+    <>
+      <input {...rest} />
+      {props.secure != null && (
+        <span className={props.secure} onClick={() => dispatch(showPassword())}>
+          Show
+        </span>
+      )}
+    </>
+  );
+};
 export default Input;

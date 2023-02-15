@@ -9,6 +9,7 @@ import BGrestaurant from "../../../assets/img/IconComponent/BGrestaurant";
 import Logo from "../../../assets/img/IconComponent/Logo";
 import Dots from "../../../assets/img/Dots.svg";
 import "./_index.scss";
+import { useSelector } from "react-redux";
 
 const initialValues = {
   email: "",
@@ -24,21 +25,18 @@ const validate = (values) => {
   } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
     errors.email = "Invalid email format";
   }
-
   if (!values.password) {
     errors.password = "Please enter your password";
   }
-
   return errors;
 };
 const Login = () => {
+  const { show } = useSelector((state) => state.auth);
   const formik = useFormik({
     initialValues,
     onSubmit,
     validate,
   });
-  console.log("Form values", formik);
-  console.log("error Form values", formik.errors);
   return (
     <div className="login">
       <div className="login-design">
@@ -74,11 +72,12 @@ const Login = () => {
         <div className="login-form-password">
           <Label label="Password" />
           <Input
-            type="password"
+            type={show ? "text" : "password"}
             className={`input ${
               formik.errors.password && formik.touched.password && "error"
             }`}
             name="password"
+            secure="show-password"
             // value={formik.values.password}
             onChange={(e) => {
               formik.setFieldValue("password", e.target.value);
@@ -97,7 +96,7 @@ const Login = () => {
             <Checkbox id="Login-check-remember-me" />
             <Label label="Remember me" htmlFor="Login-check-remember-me" />
           </span>
-          <span className="forget-password"> I forget my password?</span>
+          <span className="forget-password">I forget my password?</span>
         </div>
         <span className="verify-recaptcha">
           <ReCAPTCHA sitekey="6Lc4m1skAAAAAPWWeYgkqt89o3OEkCJ7dio74T7c" />
