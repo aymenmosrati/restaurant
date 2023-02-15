@@ -1,0 +1,30 @@
+@use "../../../assets/scss/utilities" as *;
+.modale-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+  .modale-title-name {
+    @include bold-body1;
+    color: $typography-text1;
+  }
+  .modale-close {
+    color: $typography-text1;
+    font-size: 28px;
+  }
+}
+.modal-description {
+  @include body2;
+  color: $typography-text1;
+  padding-bottom: 40px;
+}
+.modal-form-email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+.modal-btn-login {
+  width: 100%;
+  margin: 48px 0;
+}
