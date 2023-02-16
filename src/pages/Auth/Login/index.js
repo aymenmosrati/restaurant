@@ -15,6 +15,7 @@ import ForgotPassword from "../ForgotPassword";
 import "./_index.scss";
 import { showModal } from "../../../store/modalSlice";
 import GoogleReCAPTCHA from "../../../components/ReCAPTCHA";
+import NewPassword from "../NewPassword";
 
 const initialValues = {
   email: "",
@@ -37,7 +38,7 @@ const validate = (values) => {
   return errors;
 };
 const Login = () => {
-  const { show } = useSelector((state) => state.auth);
+  const { showPassLogin, newPass } = useSelector((state) => state.auth);
   const { showPopup } = useSelector((state) => state.modal);
   const dispatch = useDispatch();
   const formik = useFormik({
@@ -57,75 +58,79 @@ const Login = () => {
           </p>
           <BGrestaurant className="BGrestaurant" />
         </div>
-        <form className="login-form" onSubmit={formik.handleSubmit}>
-          <h3 className="login-form-title">Login</h3>
-          <span className="login-form-description">
-            Please enter your information and start your journey.
-          </span>
-          <div className="login-form-email">
-            <Label label="E-mail address" />
-            <Input
-              type="email"
-              className={`input ${
-                formik.errors.email && formik.touched.email && "error"
-              }`}
-              name="email"
-              //  value={formik.values.password}
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-            />
-            {formik.errors.email && formik.touched.email ? (
-              <Message text={formik.errors.email} status="error" />
-            ) : null}
-          </div>
-          <div className="login-form-password">
-            <Label label="Password" />
-            <Input
-              type={show ? "text" : "password"}
-              className={`input ${
-                formik.errors.password && formik.touched.password && "error"
-              }`}
-              name="password"
-              secure="show-password"
-              // value={formik.values.password}
-              onChange={(e) => {
-                formik.setFieldValue("password", e.target.value);
-                // formik.setValues((values) => {
-                //   return { ...values, password: e.target.value };
-                // });
-              }}
-              onBlur={formik.handleBlur}
-            />
-            {formik.errors.password && formik.touched.password ? (
-              <Message text={formik.errors.password} status="error" />
-            ) : null}
-          </div>
-          <div className="remember-forget-pass">
-            <span className="remember-me">
-              <Checkbox id="Login-check-remember-me" />
-              <Label label="Remember me" htmlFor="Login-check-remember-me" />
+        {newPass ? (
+          <NewPassword />
+        ) : (
+          <form className="login-form" onSubmit={formik.handleSubmit}>
+            <h3 className="login-form-title">Login</h3>
+            <span className="login-form-description">
+              Please enter your information and start your journey.
             </span>
-            <span
-              className="forget-password"
-              onClick={() => dispatch(showModal(true))}
-            >
-              Forgot password?
+            <div className="login-form-email">
+              <Label label="E-mail address" />
+              <Input
+                type="email"
+                className={`input ${
+                  formik.errors.email && formik.touched.email && "error"
+                }`}
+                name="email"
+                //  value={formik.values.password}
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+              />
+              {formik.errors.email && formik.touched.email ? (
+                <Message text={formik.errors.email} status="error" />
+              ) : null}
+            </div>
+            <div className="login-form-password">
+              <Label label="Password" />
+              <Input
+                type={showPassLogin ? "text" : "password"}
+                className={`input ${
+                  formik.errors.password && formik.touched.password && "error"
+                }`}
+                name="password"
+                secure="show-password"
+                // value={formik.values.password}
+                onChange={(e) => {
+                  formik.setFieldValue("password", e.target.value);
+                  // formik.setValues((values) => {
+                  //   return { ...values, password: e.target.value };
+                  // });
+                }}
+                onBlur={formik.handleBlur}
+              />
+              {formik.errors.password && formik.touched.password ? (
+                <Message text={formik.errors.password} status="error" />
+              ) : null}
+            </div>
+            <div className="remember-forget-pass">
+              <span className="remember-me">
+                <Checkbox id="Login-check-remember-me" />
+                <Label label="Remember me" htmlFor="Login-check-remember-me" />
+              </span>
+              <span
+                className="forget-password"
+                onClick={() => dispatch(showModal(true))}
+              >
+                Forgot password?
+              </span>
+            </div>
+            <span className="verify-recaptcha">
+              <GoogleReCAPTCHA />
             </span>
-          </div>
-          <span className="verify-recaptcha">
-            <GoogleReCAPTCHA />
-          </span>
-          <Button text="Login" className="button-login" />
-          <p className="login-form-description-help">
-            If you encounter a problem while logging into the system, please
-            contact
-            <span className="login-form-description-help-email">
-              {" "}
-              Yemekoperasyonekibi@migrosonline.com
-            </span>
-            .
-          </p>
-        </form>
+            <Button text="Login" className="button-login" />
+            <p className="login-form-description-help">
+              If you encounter a problem while logging into the system, please
+              contact
+              <span className="login-form-description-help-email">
+                {" "}
+                Yemekoperasyonekibi@migrosonline.com
+              </span>
+              .
+            </p>
+          </form>
+        )}
       </div>
       {showPopup && <ForgotPassword />}
     </>

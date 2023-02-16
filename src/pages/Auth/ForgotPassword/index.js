@@ -10,26 +10,26 @@ import "./_index.scss";
 import { showModal } from "../../../store/modalSlice";
 import Message from "../../../components/Message";
 import GoogleReCAPTCHA from "../../../components/ReCAPTCHA";
-
-const initialValues = {
-  email: "",
-};
-const onSubmit = (values) => {
-  console.log("form data", values);
-};
-
-const validate = (values) => {
-  let errors = {};
-  if (!values.email) {
-    errors.email = "Please enter your email address";
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
-    errors.email = "Invalid email format";
-  }
-  return errors;
-};
+import { newPassword } from "../../../store/authSlice";
 
 const ForgotPassword = () => {
-  const dispatch = useDispatch();
+  const initialValues = {
+    email: "",
+  };
+  const onSubmit = (values) => {
+    dispatch(newPassword());
+    dispatch(showModal(false));
+  };
+  const validate = (values) => {
+    let errors = {};
+    if (!values.email) {
+      errors.email = "Please enter your email address";
+    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
+      errors.email = "Invalid email format";
+    }
+    return errors;
+  };
+  let dispatch = useDispatch();
   const formik = useFormik({
     initialValues,
     onSubmit,
@@ -50,7 +50,7 @@ const ForgotPassword = () => {
         Please enter your registered e-mail address, where we can send you the
         link to reset your new password.
       </p>
-      <div className="modal-form-email">
+      <form className="modal-form-email" onSubmit={formik.handleSubmit}>
         <Label label="E-mail address" />
         <Input
           type="email"
@@ -65,9 +65,13 @@ const ForgotPassword = () => {
         {formik.errors.email && formik.touched.email ? (
           <Message text={formik.errors.email} status="error" />
         ) : null}
-      </div>
+      </form>
       <GoogleReCAPTCHA />
-      <Button text="Send" className="button-login modal-btn-login" />
+      <Button
+        text="Send"
+        className="button-login modal-btn-login"
+        onClick={formik.handleSubmit}
+      />
     </Modal>
   );
 };
