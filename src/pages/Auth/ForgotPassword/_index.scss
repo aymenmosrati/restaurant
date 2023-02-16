@@ -11,6 +11,7 @@
   .modale-close {
     color: $typography-text1;
     font-size: 28px;
+    cursor: pointer;
   }
 }
 .modal-description {
@@ -27,4 +28,7 @@
 .modal-btn-login {
   width: 100%;
   margin: 48px 0;
+}
+
+@media screen and (max-width: 450px) {
 }

@@ -1,5 +1,5 @@
 import { useFormik } from "formik";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as Yup from "yup";
 import ReCAPTCHA from "react-google-recaptcha";
 import Input from "../../../components/Input";
@@ -13,6 +13,8 @@ import Dots from "../../../assets/img/Dots.svg";
 // import Modal from "../../../components/Modal";
 import ForgotPassword from "../ForgotPassword";
 import "./_index.scss";
+import { showModal } from "../../../store/modalSlice";
+import GoogleReCAPTCHA from "../../../components/ReCAPTCHA";
 
 const initialValues = {
   email: "",
@@ -21,13 +23,7 @@ const initialValues = {
 const onSubmit = (values) => {
   console.log("form data", values);
 };
-const SignupSchema = Yup.object().shape({
-  lastName: Yup.string()
-    .min(2, "Too Short!")
-    .max(50, "Too Long!")
-    .required("Required"),
-  email: Yup.string().email("Invalid email").required("Required"),
-});
+
 const validate = (values) => {
   let errors = {};
   if (!values.email) {
@@ -42,6 +38,8 @@ const validate = (values) => {
 };
 const Login = () => {
   const { show } = useSelector((state) => state.auth);
+  const { showPopup } = useSelector((state) => state.modal);
+  const dispatch = useDispatch();
   const formik = useFormik({
     initialValues,
     onSubmit,
@@ -107,10 +105,15 @@ const Login = () => {
               <Checkbox id="Login-check-remember-me" />
               <Label label="Remember me" htmlFor="Login-check-remember-me" />
             </span>
-            <span className="forget-password">Forgot password?</span>
+            <span
+              className="forget-password"
+              onClick={() => dispatch(showModal(true))}
+            >
+              Forgot password?
+            </span>
           </div>
           <span className="verify-recaptcha">
-            <ReCAPTCHA sitekey="6Lc4m1skAAAAAPWWeYgkqt89o3OEkCJ7dio74T7c" />
+            <GoogleReCAPTCHA />
           </span>
           <Button text="Login" className="button-login" />
           <p className="login-form-description-help">
@@ -124,7 +127,7 @@ const Login = () => {
           </p>
         </form>
       </div>
-      <ForgotPassword />
+      {showPopup && <ForgotPassword />}
     </>
   );
 };

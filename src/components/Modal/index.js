@@ -1,13 +1,30 @@
+import React, { useEffect, useRef } from "react";
+import { useDispatch } from "react-redux";
+import { showModal } from "../../store/modalSlice";
 import "./_index.scss";
 
-import React from "react";
+const Modale = ({ children }) => {
+  let dispatch = useDispatch();
+  let menuRef = useRef();
 
-const index = ({ children }) => {
+  useEffect(() => {
+    let handler = (event) => {
+      if (!menuRef?.current?.contains(event.target)) {
+        dispatch(showModal(false));
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
   return (
     <div className="modal">
-      <div className="modal-content">{children}</div>
+      <div ref={menuRef} className="modal-content">
+        {children}
+      </div>
     </div>
   );
 };
 
-export default index;
+export default Modale;
