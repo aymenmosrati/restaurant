@@ -1,21 +1,18 @@
-import { useFormik } from "formik";
 import { useDispatch, useSelector } from "react-redux";
-import * as Yup from "yup";
-import ReCAPTCHA from "react-google-recaptcha";
-import Input from "../../../components/Input";
+import { useFormik } from "formik";
+import GoogleReCAPTCHA from "../../../components/ReCAPTCHA";
 import Checkbox from "../../../components/Checkbox";
-import Label from "../../../components/Label";
-import Button from "../../../components/Button";
 import Message from "../../../components/Message";
+import Button from "../../../components/Button";
+import Input from "../../../components/Input";
+import Label from "../../../components/Label";
 import BGrestaurant from "../../../assets/img/IconComponent/BGrestaurant";
 import Logo from "../../../assets/img/IconComponent/Logo";
 import Dots from "../../../assets/img/Dots.svg";
-// import Modal from "../../../components/Modal";
 import ForgotPassword from "../ForgotPassword";
-import "./_index.scss";
 import { showModal } from "../../../store/modalSlice";
-import GoogleReCAPTCHA from "../../../components/ReCAPTCHA";
 import NewPassword from "../NewPassword";
+import "./_index.scss";
 
 const initialValues = {
   email: "",

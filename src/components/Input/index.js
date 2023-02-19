@@ -1,15 +1,20 @@
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   showNewPasswordAgain,
   showNewPassword,
   showPassword,
 } from "../../store/authSlice";
 import "./_index.scss";
+import Visible from "../../assets/img/IconComponent/Visible";
+import Hidden from "../../assets/img/IconComponent/Hidden";
 
 const Input = (props) => {
   const { ...rest } = props;
   const dispatch = useDispatch();
+  const { showPassLogin, showNewPass, showNewPassAgain } = useSelector(
+    (state) => state.auth
+  );
   return (
     <>
       <input {...rest} />
@@ -24,7 +29,15 @@ const Input = (props) => {
               : dispatch(showNewPasswordAgain());
           }}
         >
-          Show
+          {props.name === "password" && showPassLogin ? (
+            <Visible />
+          ) : props.name === "newPassword" && showNewPass ? (
+            <Visible />
+          ) : props.name === "newPasswordAgain" && showNewPassAgain ? (
+            <Visible />
+          ) : (
+            <Hidden />
+          )}
         </span>
       )}
     </>
